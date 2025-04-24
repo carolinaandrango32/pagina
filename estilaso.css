@@ -1,0 +1,68 @@
+
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    color: #90caf9;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+    color: #e0e0e0;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  #cronometro {
+    background-color: #1f1f1f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffca28;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #000;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+    width: 300px;
+  }
+
+  button {
+    background-color: #3949ab;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #5c6bc0;
+  }
+
+  .pregunta {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
